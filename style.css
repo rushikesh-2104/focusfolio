@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+
+
+section1{
+    background-color: red;
+}
+
+
+
+nav{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background-color: #ffcbcb;
+
+}
+
+nav h1{
+    margin-left: 30px;
+    font-size: 60px;
+    font-family:'Oswald';
+    font-weight: 900;
+    color: #132743;
+}
+
+.content{
+    display: flex;
+    gap: 50px;
+    font-size: 30px;
+    padding: 15px 30px;
+    color: #132743;
+}
+
+
+
+
+
+
+
+.section2{
+    height: 100vh;
+    width: 100%;
+    background-color: #f5f5f5; 
+}
+
+.category{
+    background-color: #ffb5b5;
+    height: 100%;
+    width: 100%;
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.category img{
+  height: 100%;
+  width: 40%;
+}
+
+
+.container1{
+  background-color: #ffb5b5;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.subcontain1{
+  background-color: #ffb5b5;
+  height: 100%;
+  width: 30%;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.subcontain1 img{
+  height: 60%;
+  width: 100%;
+  mix-blend-mode: multiply;  /*to remove bg of img*/
+}
+
+.subcontain2{
+  background-color: #ffb5b5;
+  height: 100%;
+  width: 70%;
+  margin-top: 200px;
+  margin-left: 30px;
+}
+
+.subcontain2 h1{
+  font-size: 50px;
+  font-weight: 800;
+  white-space: nowrap;
+  color: #132743;
+}
+.subcontain2 p{
+  font-size: 30px;
+  font-weight: 700;
+  color: #234d62;;
+}
+
+
+
+.section3{
+    height: 86vh;
+    width: 100%;
+    background-color: #ffb5b5;
+}
+
+.gallery{
+   height: 100%;
+    width: 100%;
+    background-color: #ffb5b5;
+    display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.gallery img{
+  height: 10%;
+  width: 40%;
+}
+
+
+
+
+
+
+
+
+.section4{
+    height: 100%;
+    width: 100%;
+    background-color: #ffb5b5;
+}
+.section5{
+    height: 100%;
+    width: 100%;
+    background-color: #ffb5b5;
+}
+
+
+#cursor {
+  width: 20px;
+  height: 20px;
+  background-color: #0c0c0c;
+  border-radius: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 9999;
+  mix-blend-mode:difference /* optional for cool effect */
+}
+
