@@ -10,7 +10,7 @@ document.addEventListener("mousemove",function(dets){
 
 
 var tl = gsap.timeline()
-  tl.from("h1", {
+  tl.from("nav h1", {
     y: -20,
     opacity: 0,
     duration: 0.5,
@@ -23,9 +23,26 @@ var tl = gsap.timeline()
     stagger: 0.2
   });
 
+   tl.from(".subcontain1 img", {
+    scale:-2,
+    opacity: 0,
+    duration: 0.4,
+  });
+  tl.from(".subcontain2 h1", {
+    y: -20,
+    opacity: 0,
+    duration: 0.4,
+  });
+  tl.from(".subcontain2 p", {
+    y: -20,
+    opacity: 0,
+    duration: 0.4,
+    stagger:0.2,
+  });
+
 
 gsap.to(".section2 .category",{
-    transform:"translateX(-265%)",
+    transform:"translateX(-360%)",
     scrollTrigger:{                 //use to give effects on scrolling based
         trigger:".section2",           //element to be triggered (write only parent wihle using pin)
         scroller:"body",            //on which part
