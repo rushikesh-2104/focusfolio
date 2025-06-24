@@ -1,8 +1,12 @@
 *{
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
+}
+body{
+font-family: 'Open Sans' , sans-serif;
 }
 
 html,body{
@@ -449,23 +453,57 @@ nav h1{
 
 
 .section3{
-    height: 86vh;
+    height: 100%;
     width: 100%;
     background-color: #e1eacd;
 }
 
-.gallery{
-   height: 100%;
-    width: 100%;
-    background-color: #e1eacd;
-    display: flex;
+.galleryy{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
   align-items: center;
+}
+.boxcontainer1{
+  height: 100%;
+  width: 50%;
+  display: flex;
   justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  top: 20px;
+}
+.boxcontainer2{
+  height: 100%;
+  width: 50%;
+  display: flex;
+   justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+  top: 20px;
+}
+.box1{
+ height: 60%;
+ width: 70%;
+ background-color: #fff;
+ object-fit: cover;
+ overflow: hidden;
+ border-radius: 15px;
 }
 
-.gallery img{
-  height: 10%;
-  width: 40%;
+.galleryy img{
+  height: 100%;
+  width: 100%;
+  transition: all ease 1s;
+}
+
+.box1:hover img{
+  scale: 1.2;
 }
 
 
@@ -659,7 +697,3 @@ color: #01352c;
   z-index: 9999;
   mix-blend-mode:difference /* optional for cool effect */
 }
-
-
-
-
