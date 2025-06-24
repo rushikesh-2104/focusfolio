@@ -564,8 +564,10 @@ nav h1{
   font-size: 60px;
   color: #01352c;
 }
+
 .ab2 p{
-  font-size: 30px;
+  font-size:25px;
+  padding: 1rem;
   font-weight: 500;
   color: #01352c;
 }
@@ -626,7 +628,7 @@ nav h1{
   background-color: #e1eacd;
 }
 .cc1 label{
-font-size: 50px;
+font-size: 45px;
 font-weight: 600;
 color: #01352c;
 }
