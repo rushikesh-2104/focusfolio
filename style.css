@@ -440,6 +440,7 @@ nav h1{
   width: 100%;
   display: flex;
   justify-content: space-between;
+  
 }
 
 .subcontain1{
@@ -478,6 +479,38 @@ nav h1{
   color: #01352c;
 }
 
+
+@media screen and (max-width: 768px) {
+  .container1 {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .subcontain1,
+  .subcontain2 {
+    width: 100%;
+    margin: 0;
+  }
+
+  .subcontain1 img {
+    max-width: 80%;
+    height: auto;
+  }
+
+  .subcontain2 {
+    margin-top: 20px;
+    padding: 10px;
+  }
+
+  .subcontain2 h1 {
+    font-size: 28px;
+    white-space: normal;
+  }
+   .subcontain2 p {
+    font-size: 18px;
+  }
+}
 
 
 .section3{
