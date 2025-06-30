@@ -33,6 +33,7 @@ nav{
     justify-content: space-between;
     padding: 15px 30px;
     background-color: #bad8b6;
+    flex-wrap: wrap;
 
 }
 
@@ -51,6 +52,33 @@ nav h1{
     padding: 15px 30px;
     color: #01352c;
 }
+
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+    }
+
+    nav h1 {
+        font-size: 40px;
+        margin-left: 0;
+    }
+
+     .content {
+        flex-direction: column;
+        gap: 20px;
+        padding: 10px 0;
+        font-size: 24px;
+        width: 100%;
+    }
+
+    .content h4 {
+        padding-bottom: 8px;
+        border-bottom: 1px solid #01352c;
+        width: 100%;
+    }
+  }
 
 
 
