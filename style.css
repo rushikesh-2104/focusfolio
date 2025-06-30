@@ -433,6 +433,75 @@ nav h1{
   padding: 10px 20px;
 }
 
+@media (max-width: 768px) {
+  .category h1 {
+    font-size: 40px;
+  }
+  .c0 h1, .c0 h2, .c0 p {
+    font-size: 24px;
+    white-space: normal;
+    text-align: center;
+  }
+  .c0 {
+    padding: 20px;
+  }
+}
+@media (max-width: 992px) {
+  .category {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 600px) {
+  .category {
+    overflow-x: auto;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .category > div {
+    min-width: 80%;
+    flex-shrink: 0;
+  }
+}
+@media (max-width: 992px) {
+  .category {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .category img {
+    max-width: 90%;
+    height: auto;
+  }
+
+  .category h1 {
+    font-size: 40px;
+  }
+
+  .c0 {
+    padding: 20px;
+  }
+
+  .c0 h1 {
+    font-size: 32px;
+  }
+
+  .c0 h2 {
+    font-size: 28px;
+    left: 0;
+    top: 0;
+    position: relative;
+  }
+
+  .c0 p {
+    font-size: 18px;
+    white-space: normal;
+    text-align: center;
+  }
+}
+
+
 
 .container1{
   background-color: #e1eacd;
