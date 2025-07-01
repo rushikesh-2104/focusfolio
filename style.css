@@ -711,26 +711,55 @@ nav h1{
   width: 100%;
 }
 
-
 @media (max-width: 768px) {
-  .abinner {
+  .section5 {
+    height: auto;
+    padding: 20px 0;
     flex-direction: column;
-    text-align: center;
   }
 
-  .ab1 h1 {
-    font-size: 28px;
+  .aboutcontent {
+    height: auto;
+    width: 90%;
+    border-radius: 30px; /* Avoid full circle on mobile */
+  }
+
+  .abinner {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .ab2, .ab3 {
+    width: 100%;
+    height: auto;
   }
 
   .ab2 h1 {
-    font-size: 24px;
+    font-size: 32px;
+    text-align: center;
+    margin-top: 10px;
   }
 
   .ab2 p {
-    font-size: 15px;
+    font-size: 16px;
+    padding: 15px;
+    text-align: justify;
   }
-    .ab3 {
-    margin-top: 20px;
+
+  .ab3 img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 15px;
+  }
+
+  .ab1 h1 {
+    font-size: 32px;
+  }
+
+  .ab1 {
+    height: auto;
+    padding: 10px;
   }
 }
 
