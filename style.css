@@ -867,6 +867,83 @@ color: #01352c;
   border-width: 3px;
 }
 
+@media (max-width: 768px) {
+  .section6 {
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .contactcontent {
+    height: auto;
+  }
+
+  .content1 {
+    height: auto;
+    padding: 10px;
+  }
+
+  .content1 marquee {
+    font-size: 24px;
+    font-weight: 700;
+    scrollamount: 10;
+  }
+
+  .content2 {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .cc1, .cc2 {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .cc1 form {
+    width: 100%;
+  }
+
+  .cc1 label {
+    font-size: 20px;
+  }
+
+  .cc1 input {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .cc1 select {
+    width: 100%;
+    font-size: 18px;
+  }
+
+  .cc2 a,
+  .cc2 p {
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .cc2 img {
+    height: 24px;
+  }
+
+  .cc2 button {
+    width: 100%;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+}
+
+
+
+
+
+
+
+
+
 #cursor {
   width: 20px;
   height: 20px;
