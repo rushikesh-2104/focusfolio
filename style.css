@@ -643,6 +643,22 @@ nav h1{
     background-color: #e1eacd;
 }
 
+@media (max-width: 768px) {
+  .boxcontainer1,
+  .boxcontainer2 {
+    width: 100%;
+    flex-direction: column;
+    top: 0;
+  }
+
+  .box1 {
+    width: 90%;
+    height: auto;
+  }
+   .galleryy {
+    flex-direction: column;
+  }
+}
 
 
 .section5{
