@@ -712,6 +712,28 @@ nav h1{
 }
 
 
+@media (max-width: 768px) {
+  .abinner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .ab1 h1 {
+    font-size: 28px;
+  }
+
+  .ab2 h1 {
+    font-size: 24px;
+  }
+
+  .ab2 p {
+    font-size: 15px;
+  }
+    .ab3 {
+    margin-top: 20px;
+  }
+}
+
 
 .section6{
     height: 90%;
