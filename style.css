@@ -956,3 +956,8 @@ color: #01352c;
   z-index: 9999;
   mix-blend-mode:difference /* optional for cool effect */
 }
+@media (max-width: 768px) {
+  #cursor {
+    display: none;
+  }
+}
