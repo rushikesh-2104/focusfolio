@@ -780,6 +780,14 @@ nav h1{
 }
 
 
+@media (max-width: 768px) {
+  .box1 {
+    width: 95%;
+    aspect-ratio: 4 / 3; /* Slightly taller on mobile */
+  }
+}
+
+
 .section6{
     height: 90%;
     width: 100%;
