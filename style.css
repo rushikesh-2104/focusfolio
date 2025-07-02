@@ -1129,3 +1129,22 @@ color: #01352c;
 }
 
 
+@media (max-width: 600px) {
+  * {
+    box-sizing: border-box;
+  }
+
+  .subcontain2 h1, .subcontain2 p, .ab1 h1, .c0 h1, .c0 h2 {
+    white-space: normal;
+    text-align: center;
+  }
+
+  button {
+    width: 90%;
+    max-width: 300px;
+  }
+
+  .content {
+    overflow-x: hidden;
+  }
+}
