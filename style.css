@@ -634,6 +634,73 @@ nav h1{
 .box1:hover img{
   scale: 1.2;
 }
+@media (max-width: 600px) {
+  .galleryy {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .boxcontainer1,
+  .boxcontainer2 {
+    width: 100%;
+    flex-direction: column;
+    top: 0;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .box1 {
+    width: 90%;
+    height: auto;
+    aspect-ratio: 4 / 3; /* Maintains good shape on mobile */
+    border-radius: 15px;
+  }
+
+  .galleryy img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+}
+/* Fix container height and positioning for mobile */
+@media (max-width: 600px) {
+  .section3,
+  .section4,
+  .section5 {
+    height: auto !important;
+  }
+
+  .galleryy {
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: auto;
+    padding: 20px 0;
+  }
+
+  .boxcontainer1,
+  .boxcontainer2 {
+    width: 100%;
+    top: 0;
+    position: static; /* avoid relative top shift */
+  }
+
+  .box1 {
+    height: auto;
+    width: 90%;
+    aspect-ratio: 4/3;
+    margin-bottom: 20px;
+  }
+
+  .section5 {
+    margin-top: 40px; /* Add spacing between sections */
+  }
+
+  .aboutcontent {
+    margin-bottom: 40px; /* Add bottom spacing for clarity */
+  }
+}
+
 
 
 
@@ -643,20 +710,31 @@ nav h1{
     background-color: #e1eacd;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
+  .galleryy {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px; /* Add spacing between items */
+  }
+
   .boxcontainer1,
   .boxcontainer2 {
     width: 100%;
     flex-direction: column;
+    align-items: center;
     top: 0;
+    position: relative; /* Ensure no absolute/offset issues */
+    gap: 15px;
+    padding: 10px 0;
   }
 
   .box1 {
     width: 90%;
     height: auto;
-  }
-   .galleryy {
-    flex-direction: column;
+    aspect-ratio: 4 / 3; /* Optional for consistent image boxes */
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 10px;
   }
 }
 
@@ -727,22 +805,32 @@ nav h1{
   width: 100%;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .section5 {
     height: auto;
     padding: 20px 0;
     flex-direction: column;
+    overflow-x: hidden;
   }
 
   .aboutcontent {
     height: auto;
     width: 90%;
-    border-radius: 30px; /* Avoid full circle on mobile */
+    border-radius: 30px;
   }
 
   .abinner {
     flex-direction: column;
     height: auto;
+  }
+
+  .ab1 {
+    height: auto;
+    padding: 10px;
+  }
+
+  .ab1 h1 {
+    font-size: 32px;
   }
 
   .ab2, .ab3 {
@@ -769,23 +857,61 @@ nav h1{
     margin-top: 15px;
   }
 
-  .ab1 h1 {
-    font-size: 32px;
-  }
-
-  .ab1 {
-    height: auto;
-    padding: 10px;
-  }
-}
-
-
-@media (max-width: 768px) {
   .box1 {
     width: 95%;
-    aspect-ratio: 4 / 3; /* Slightly taller on mobile */
+    aspect-ratio: 4 / 3;
   }
 }
+@media (max-width: 600px) {
+  .ab3 img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-top: 15px;
+    display: block;
+  }
+
+  .ab3 {
+    width: 100%;
+    height: auto;
+    padding: 10px 0;
+  }
+
+  .ab2 {
+    margin-bottom: 20px;
+  }
+
+  .ab2 p, .ab2 h1 {
+    z-index: 1;
+    position: relative;
+  }
+
+  .aboutcontent {
+    padding: 10px;
+  }
+
+  .ab3 {
+  width: 100%;
+  padding: 10px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.ab3 img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 20px;
+  display: block;
+  margin: 20px 0;
+  z-index: 0;
+  position: relative;
+}
+
+
+}
+
 
 
 .section6{
@@ -891,7 +1017,7 @@ color: #01352c;
   border-width: 3px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .section6 {
     height: auto;
     padding: 20px 0;
@@ -980,7 +1106,7 @@ color: #01352c;
   z-index: 9999;
   mix-blend-mode:difference /* optional for cool effect */
 }
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   #cursor {
     display: none;
   }
