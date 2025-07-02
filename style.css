@@ -701,6 +701,22 @@ nav h1{
   }
 }
 
+@media (max-width: 600px) {
+  .ab3 {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 20px;
+  }
+
+  .ab3 img {
+    display: block;
+    height: auto !important;
+    width: 100% !important;
+    mix-blend-mode: normal !important;
+    border-radius: 10px;
+  }
+}
 
 
 
