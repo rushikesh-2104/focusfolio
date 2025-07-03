@@ -435,9 +435,6 @@ nav h1{
 
 
 
-
-
-
 @media (max-width: 600px) {
   .category h1 {
     font-size: 40px;
@@ -455,28 +452,22 @@ nav h1{
   .category {
     flex-direction: column;
     align-items: center;
-     margin: 0 !important;
+    margin: 0 !important;
     padding: 0 !important;
-  }
-}
-@media (max-width: 600px) {
-  .category {
     overflow-x: auto;
     display: flex;
     flex-wrap: nowrap;
   }
+}
+@media (max-width: 600px) {
+  
   .category > div {
     min-width: 80%;
     flex-shrink: 0;
   }
 }
 @media (max-width: 600px) {
-  .category {
-    flex-direction: column;
-    align-items: center;
-    padding: 20px;
-  }
-
+  
   .category img {
     max-width: 90%;
     height: auto;
