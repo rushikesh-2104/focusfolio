@@ -15,7 +15,7 @@ html, body {
   width: 100%;
 }
 
-/* Navigation */
+
 nav {
   display: flex;
   align-items: center;
@@ -31,7 +31,6 @@ nav h1 {
   font-family: 'Oswald';
   font-weight: 900;
   color: #01352c;
-  cursor: pointer;
 }
 
 .content {
@@ -47,7 +46,6 @@ nav h1 {
   font-weight: 500;
 }
 
-/* Responsive Nav */
 @media (max-width: 600px) {
   nav {
     flex-direction: column;
@@ -144,71 +142,76 @@ footer {
   }
 }
 
-/* NEW: Responsive Flexible Photo Layout */
+
 .photogrid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-  padding: 20px;
-  max-width: 1200px;
-  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+  padding: 10px;
 }
 
-/* Column/Card that grows naturally */
 .column {
   position: relative;
-  flex-grow: 1;
-  flex-basis: 250px;
-  max-width: 100%;
+  width: 100%;
+  aspect-ratio: 3 / 4; /* keeps height equal across all */
   overflow: hidden;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   transition: transform 0.3s ease;
 }
 
 .column:hover {
   transform: translateY(-8px);
 }
-
-/* Responsive Image */
 .column img {
   width: 100%;
   height: auto;
   display: block;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
   object-fit: cover;
-  border-radius: 12px;
 }
 
-/* Caption Overlay */
+.main-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+.column img:hover {
+  transform: scale(1.06);
+  transition: transform 0.3s ease-in-out;
+}
+
 .caption {
   position: absolute;
   bottom: 0;
-  left: 0;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0,0,0,0.5);
   color: #fff;
-  padding: 10px 14px;
+  width: 100%;
+  padding: 8px;
   font-size: 14px;
-  font-weight: 600;
   text-align: center;
-  line-height: 1.4;
-  border-radius: 0 0 12px 12px;
+  font-weight: 600;
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
-/* Mobile Adjustments */
+.column:hover .caption {
+  opacity: 1;
+}
+
+
+
+
+
 @media (max-width: 600px) {
-  .photogrid {
-    flex-direction: column;
+  .row {
+    grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
     padding: 10px;
   }
 
   .caption {
-    font-size: 13px;
-    padding: 8px 10px;
-  }
-
-  .column img:hover {
-    transform: none;
+    font-size: 12px;
+    padding: 6px;
   }
 }
