@@ -710,6 +710,21 @@ top: 40px;
 position: relative;
 }
 
+@media (max-width: 600px) {
+  .box1text h1 {
+    font-size: 1.5rem;
+  }
+
+  .box1text p {
+    font-size: 1.2rem;
+  }
+
+  .boxContent button {
+    font-size: 1rem;
+    padding: 8px 20px;
+  }
+}
+
 /* .box1{
  height: 60%;
  width: 70%;
