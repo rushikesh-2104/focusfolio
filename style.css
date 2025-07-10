@@ -610,29 +610,7 @@ nav h1{
   background-color: #e1eacd;
   flex-direction: column;
 }
-/* .boxcontainer1{
-  height: 100%;
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-direction: column;
-  gap: 20px;
-  position: relative;
-  background-color: #e1eacd;
-} */
-/* .boxcontainer2{
-  height: 100%;
-  width: 50%;
-  display: flex;
-   justify-content: space-around;
-  align-items: center;
-  flex-direction: column;
-  gap: 20px;
-  position: relative;
-  top: 20px;
-  background-color: #dd2121;
-} */
+
 .box1{
  height: 350px ;
  width: 456px;
@@ -710,29 +688,58 @@ top: 40px;
 position: relative;
 }
 
-@media (max-width: 600px) {
-  .box1text h1 {
-    font-size: 1.5rem;
+@media screen and (max-width: 600px) {
+  .boxContent {
+    width: 95%;
+    height: auto;
+    margin: 20px auto;
+    padding: 20px 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
   }
 
+  .box1 {
+    width: 90%;
+    height: auto;
+    aspect-ratio: 1/1;
+    margin: 0 auto;
+    position: static;
+  }
+
+  .box1text {
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    position: static;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .box1text h1,
   .box1text p {
-    font-size: 1.2rem;
+    font-size: 24px;
+    line-height: 1.2;
   }
 
   .boxContent button {
-    font-size: 1rem;
-    padding: 8px 20px;
+    position: static;
+    margin-top: 20px;
+    font-size: 18px;
+    padding: 10px 25px;
+    width: auto;
+    display: block;
+  }
+
+  .hr1 {
+    width: 90%;
+    height: 2px;
+    margin: 40px auto 0 auto;
+    position: static;
   }
 }
 
-/* .box1{
- height: 60%;
- width: 70%;
- background-color: #e1eacd ;
- object-fit: cover;
- overflow: hidden;
- border-radius: 15px;
-} */
 
 .galleryy img{
   height: 100%;
