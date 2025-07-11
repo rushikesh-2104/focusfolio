@@ -43,7 +43,7 @@ if (window.innerWidth > 768) {
   gsap.registerPlugin(ScrollTrigger);
 
   gsap.to(".section2 .category", {
-    transform: "translateX(-360%)",
+    transform: "translateX(-320%)",
     scrollTrigger: {
       trigger: ".section2",
       scroller: "body",
@@ -54,3 +54,27 @@ if (window.innerWidth > 768) {
     }
   });
 }
+
+
+
+const buttons = document.querySelectorAll("button"); // Selects all buttons
+
+buttons.forEach((btn) => {
+  btn.addEventListener("mouseenter", () => {
+    gsap.to(btn, {
+      scale: 1.1,
+      backgroundColor: "#63c19d",
+      boxShadow: "4px 4px 10px rgba(0, 0, 0, 0.3)",
+      duration: 0.3
+    });
+  });
+
+  btn.addEventListener("mouseleave", () => {
+    gsap.to(btn, {
+      scale: 1,
+      backgroundColor: "#4ea384",
+      boxShadow: "1px 1px 2px rgba(0, 0, 0, 0.3)",
+      duration: 0.3
+    });
+  });
+});
