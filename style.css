@@ -1126,7 +1126,16 @@ color: #01352c;
 .cc2 a{
   font-size: 40px;
   color: #01352c;
+  text-decoration: none;
+  font-weight: 400;
 }
+
+.cc2 a:hover{
+  font-size: 45px;
+  color: #013518;
+  text-decoration: none;
+}
+
 .cc2 p{
   font-size: 40px;
   color: #01352c;
