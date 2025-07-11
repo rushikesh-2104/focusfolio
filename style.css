@@ -1214,6 +1214,13 @@ color: #01352c;
     gap: 10px;
   }
 
+  .cc2 a:hover{
+  font-size: 20px;
+  color: #013518;
+  text-decoration: none;
+}
+
+
   .cc2 img {
     height: 24px;
   }
