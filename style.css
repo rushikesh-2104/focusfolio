@@ -1235,8 +1235,41 @@ color: #01352c;
 
 
 
+footer {
+  background-color: #bad8b6;
+  color: #01352c;
+  font-size: 16px;
+  text-align: center;
+  border-top: 3px solid #8fbf9f;
+
+  padding-top: 60px;   /* increased top padding */
+  padding-bottom: 40px; /* add bottom padding for balance */
+  margin-top: 50px;    /* pushes footer away from main content */
+}
+
+.footer-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.footer-content p {
+  margin-bottom: 20px;
+  font-weight: 700;
+}
 
 
+@media (max-width: 600px) {
+  footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: -0.5px;
+  }
+
+  .footer-content p {
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
 
 
 
