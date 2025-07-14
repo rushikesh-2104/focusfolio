@@ -215,3 +215,17 @@ footer {
     padding: 6px;
   }
 }
+
+
+@media (max-width: 600px) {
+  footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-top: -0.1px;
+  }
+
+  .footer-content p {
+    font-size: 14px;
+    font-weight: 600;
+  }
+}
