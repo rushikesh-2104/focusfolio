@@ -71,8 +71,8 @@ nav a:hover {
 
 @media (max-width: 600px) {
     nav {
-      background: #daf79c;
-background: linear-gradient(245deg, rgba(218, 247, 156, 1) 0%, rgba(87, 199, 133, 1) 56%, rgba(186, 216, 182, 1) 100%);
+    background: #daf79c;
+background: linear-gradient(151deg, rgba(218, 247, 156, 1) 8%, rgba(186, 216, 182, 1) 41%, rgba(97, 179, 144, 1) 83%);
         flex-direction: column;
         align-items: flex-start;
         padding: 20px;
