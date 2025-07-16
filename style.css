@@ -22,6 +22,9 @@ body{
   overflow-x: hidden;
 }
 
+h1, h2, label, input, select, button, .cc1 label , .cc2 p, .cc1 input,.cc1 select {
+  font-family: 'ExconBold', sans-serif;
+}
 
 
 section1{
@@ -920,9 +923,11 @@ position: relative;
 .ab2{
   height: 100%;
   width: 60%;
-  background-color:#bad8b6;
-
+  background: #99dec8;
+background: linear-gradient(91deg, rgba(153, 222, 200, 1) 54%, rgba(235, 228, 178, 1) 99%);
 }
+
+
 .ab2 h1{
   font-size: 60px;
   color: #01352c;
@@ -938,7 +943,8 @@ position: relative;
 .ab3{
   height: 100%;
   width: 40%;
-  background-color: #bad8b6;
+  background: #99dec8;
+background: linear-gradient(266deg, rgba(153, 222, 200, 1) 17%, rgba(235, 228, 178, 1) 63%);
 }
 .ab3 img{
   height: 100%;
@@ -959,6 +965,7 @@ position: relative;
     border-radius: 1px;
   }
 
+  
   .abinner {
     flex-direction: column;
     height: auto;
