@@ -5,9 +5,9 @@
     box-sizing: border-box;
 
 }
-/* body{
-font-family: 'Open Sans' , sans-serif;
-} */
+body{
+font-family:'/assets/Excon-Bold.otf';
+}
 
 html,body{
     height: 100%;
@@ -684,6 +684,11 @@ line-height: normal;
   font-size: 35px;
   font-weight: 700;
   font-family: 'Open Sans' , sans-serif;
+}
+
+.boxContent button:hover{
+  background: #61B390;
+  background: linear-gradient(180deg, rgba(97, 179, 144, 1) 23%, rgba(237, 255, 189, 1) 66%);
 }
 
 .hr1{
