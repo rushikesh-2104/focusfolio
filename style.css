@@ -5,9 +5,9 @@
     box-sizing: border-box;
 
 }
-body{
+/* body{
 font-family: 'Open Sans' , sans-serif;
-}
+} */
 
 html,body{
     height: 100%;
@@ -46,7 +46,7 @@ nav{
 nav h1{
     margin-left: 30px;
     font-size: 60px;
-    font-family:'Oswald';
+    font-family:'/assets/Excon-Bold.otf';
     font-weight: 900;
     color: #01352c;
 }
@@ -528,8 +528,7 @@ background: linear-gradient(151deg, rgba(218, 247, 156, 1) 8%, rgba(186, 216, 18
 
 
 .container1{
-  background-color: #e1eacd;
-  height: 100%;
+  background: #E1EACD;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -537,7 +536,7 @@ background: linear-gradient(151deg, rgba(218, 247, 156, 1) 8%, rgba(186, 216, 18
 }
 
 .subcontain1{
-  background-color: #e1eacd;
+  background: #E1EACD;
   height: 100%;
   width: 30%;
   object-fit: cover;
@@ -550,10 +549,12 @@ background: linear-gradient(151deg, rgba(218, 247, 156, 1) 8%, rgba(186, 216, 18
   height: 60%;
   width: 100%;
   mix-blend-mode: multiply;  /*to remove bg of img*/
+  position: relative;
+  top: 100px;
 }
 
 .subcontain2{
-  background-color: #e1eacd;
+  background: #e1eacd;
   height: 100%;
   width: 70%;
   margin-top: 200px;
