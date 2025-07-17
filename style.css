@@ -1040,7 +1040,7 @@ background: linear-gradient(359deg, rgba(153, 222, 200, 1) 12%, rgba(235, 228, 1
 .section6{
     height: 90%;
     width: 100%;
-    background-color: #bad8b6;
+    background-color: #e1eacd;
 }
 
 
@@ -1142,7 +1142,7 @@ color: #01352c;
   height: 50px;
   width: 200px;
   border-radius: 10px;
-  border-color: #61b390 ;
+  /* border-color: #61b390 ; */
   color: #01352c;
   font-size: 30px;
   font-weight: 1000;
@@ -1167,7 +1167,6 @@ color: #01352c;
   .content1 marquee {
     font-size: 24px;
     font-weight: 700;
-    scrollamount: 10;
   }
 
   .content2 {
@@ -1201,7 +1200,7 @@ color: #01352c;
 
   .cc2 a,
   .cc2 p {
-    font-size: 18px;
+    font-size: 30px;
     display: flex;
     align-items: center;
     gap: 10px;
