@@ -777,6 +777,8 @@ position: relative;
 .box1:hover img{
   scale: 1.2;
 }
+
+
 @media (max-width: 600px) {
   .galleryy {
     flex-direction: column;
@@ -954,21 +956,30 @@ background: linear-gradient(266deg, rgba(153, 222, 200, 1) 17%, rgba(235, 228, 1
 @media (max-width: 600px) {
   .section5 {
     height: auto;
-    padding: 20px 0;
+    padding: 15px 0;
     flex-direction: column;
     overflow-x: hidden;
+    background-color: #e1eacd;
+    margin: 0;
+    padding: 0;
   }
 
   .aboutcontent {
     height: auto;
     width: 90%;
     border-radius: 1px;
+    background-color: #e1eacd;
+    margin: 0;
+    padding: 0;
   }
 
   
   .abinner {
+    display: flex;
     flex-direction: column;
-    height: auto;
+    height: 70rem;
+    gap: 0;
+    margin: 0;
   }
 
   .ab1 {
@@ -985,6 +996,16 @@ background: linear-gradient(266deg, rgba(153, 222, 200, 1) 17%, rgba(235, 228, 1
     height: auto;
   }
 
+  .ab2{
+    background: #99dec8;
+background: linear-gradient(176deg, rgba(153, 222, 200, 1) 28%, rgba(235, 228, 178, 1) 76%);
+  }
+
+  .ab3{
+    background: #99dec8;
+background: linear-gradient(359deg, rgba(153, 222, 200, 1) 12%, rgba(235, 228, 178, 1) 59%);
+  }
+
   .ab2 h1 {
     font-size: 32px;
     text-align: center;
@@ -995,13 +1016,16 @@ background: linear-gradient(266deg, rgba(153, 222, 200, 1) 17%, rgba(235, 228, 1
     font-size: 16px;
     padding: 15px;
     text-align: justify;
+    margin-bottom: 0;
   }
 
   .ab3 img {
     width: 100%;
     height: auto;
     border-radius: 20px;
-    margin-top: 15px;
+    display: block; /* Removes inline gap for images */
+    margin: 0; /* No extra margin */
+    padding: 0;
   }
 
   .box1 {
@@ -1009,55 +1033,7 @@ background: linear-gradient(266deg, rgba(153, 222, 200, 1) 17%, rgba(235, 228, 1
     aspect-ratio: 4 / 3;
   }
 }
-@media (max-width: 600px) {
-  .ab3 img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 20px;
-    margin-top: 15px;
-    display: block;
-  }
 
-  .ab3 {
-    width: 100%;
-    height: auto;
-    padding: 10px 0;
-  }
-
-  .ab2 {
-    margin-bottom: 20px;
-  }
-
-  .ab2 p, .ab2 h1 {
-    z-index: 1;
-    position: relative;
-  }
-
-  .aboutcontent {
-    padding: 10px;
-  }
-
-  .ab3 {
-  width: 100%;
-  padding: 10px 0;
-  display: flex;
-  justify-content: center;
-}
-
-.ab3 img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
-  border-radius: 20px;
-  display: block;
-  margin: 20px 0;
-  z-index: 0;
-  position: relative;
-}
-
-
-}
 
 
 
