@@ -553,7 +553,7 @@ background: linear-gradient(151deg, rgba(218, 247, 156, 1) 8%, rgba(186, 216, 18
   width: 100%;
   mix-blend-mode: multiply;  /*to remove bg of img*/
   position: relative;
-  top: 100px;
+  top: 10px;
 }
 
 .subcontain2{
