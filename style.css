@@ -675,12 +675,76 @@ mix-blend-mode: multiply;
 }
 
 .box1text h1{
-color: #025306;
 font-family: Inter;
-font-size: 51.437px;
+font-size: 95px;
 font-style: normal;
-font-weight: 800;
+font-weight: 1000;
 line-height: normal;
+}
+
+
+
+#a{
+background:url("assets/bg_building.jpg") ;
+background-size: contain;
+background-clip: text;
+color: transparent;
+}
+
+#ski{
+background:url("assets/bg_sky.jpeg") ;
+background-size: contain;
+background-clip: text;
+color: transparent;
+}
+
+#f{
+background:url("assets/bg_festival.jpeg") ;
+background-size: contain;
+background-clip: text;
+color: transparent;
+}
+
+#c{
+background:url("assets/bg_creature.jpg") ;
+background-size: contain;
+background-clip: text;
+color: transparent;  
+}
+
+#e{
+background:url("assets/bg_event.jpg") ;
+background-size: contain;
+background-clip: text;
+color: transparent;  
+}
+
+#foodie{
+background:url("assets/bg_fruits.jpeg") ;
+background-size: contain;
+background-clip: text;
+color: transparent;  
+}
+
+#b{
+background:url("assets/bg_beach.jpg") ;
+background-size: contain;
+background-clip: text;
+color: transparent;  
+}
+
+#frut{
+background:url("assets/bg_fruits.jpeg") ;
+background-size: contain;
+background-clip: text;
+color: transparent;  
+}
+
+#tree{
+background:url("assets/bg_trees.jpeg") ;
+background-size: contain;
+background-clip: text;
+color: transparent;  
 }
 
 .box1text p{
