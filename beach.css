@@ -151,13 +151,9 @@ footer {
 }
 
 .column {
-  display: flex; /* ✅ added */
-  flex-direction: column; /* ✅ added */
-  justify-content: space-between; /* ✅ added */
-
   position: relative;
   width: 100%;
-  /* aspect-ratio: 3 / 4; keeps height equal across all */
+  aspect-ratio: 3 / 4; /* keeps height equal across all */
   overflow: hidden;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
@@ -169,7 +165,7 @@ footer {
 }
 .column img {
   width: 100%;
-  height: 300px;
+  height: auto;
   display: block;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.15);
@@ -187,8 +183,8 @@ footer {
 }
 
 .caption {
-  /* position: absolute; */
-  /* bottom: 0; */
+  position: absolute;
+  bottom: 0;
   background: rgba(0,0,0,0.5);
   color: #fff;
   width: 100%;
